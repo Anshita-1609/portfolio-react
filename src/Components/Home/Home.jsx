@@ -3,8 +3,8 @@ import avatarImg from "/src/assets/Avatarimg.jpg";
 
 const Home = () => {
     return (
-        <div id="home" className="text-white flex w-full justify-between items-start p-10 md:p-20 bg-gradient-to-r from-gray-800 via-gray-900 to-black">
-            <div className="md:w-2/4 md:pt-10 space-y-6">
+        <div id="home" className="text-white flex md:flex-row  flex-col w-full justify-between items-start p-10 md:p-20 bg-gradient-to-r from-gray-800 via-gray-900 to-black">
+            <div className="md:w-2/4 md:pt-10 space-y-6 flex-col">
                 <h1 className="text-6xl md:text-6xl font-bold flex leading-snug tracking-tighter text-gray-100">
                     <TextChange />
                 </h1>
