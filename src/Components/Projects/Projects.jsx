@@ -4,7 +4,7 @@ const projects = [
         name: "Food-App",
         description: "A user-friendly food delivery app with a focus on UI/UX and fast performance.",
         techStack: ["ReactNative", "TailwindCSS"],
-        link: "",
+        link: "https://github.com/Anshita-1609/FoodApp",
         image: "/projects/foodapp.png"
     },
     {

@@ -14,7 +14,7 @@ const Home = () => {
             </div>
             <div>
                 <img
-                    className="rounded-full  w-80 h-80 md:w-100 md:h-100 shadow-lg shadow-gray-600 border-4 border-gray-600 hover:scale-125 transition-transform duration-300"
+                    className="rounded-full w-80 h-80 md:w-100 md:h-100 shadow-lg shadow-gray-600 border-4 border-gray-600 hover:scale-125 transition-transform duration-300 object-cover"
                     src={avatarImg}
                     alt="Avatar"
                 />
