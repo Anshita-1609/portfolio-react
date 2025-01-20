@@ -7,7 +7,7 @@ import Projects from "./Components/Projects/Projects";
 
 function App() {
   return (
-    <div className="bg-gray-200 h-auto w-full overflow-hidden">
+    <div className=" h-auto w-full overflow-hidden">
       <Navbar />
       <hr className="border-t-4 border-pink-700 w-full" />
       <Home />
