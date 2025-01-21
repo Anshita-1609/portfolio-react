@@ -34,7 +34,7 @@ const Projects = () => {
     return (
         <div id="projects" style={{ backgroundColor: '#1a202c' }} className="p-10">
 
-            <h2 className="text-4xl font-bold text-center text-gray-800 text-pink-600 mb-10">My Projects</h2>
+            <h2 className="text-4xl font-bold text-center bg-gray-900 text-pink-600 mb-10">My Projects</h2>
             <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {projects.map((project, index) => (
                     <a

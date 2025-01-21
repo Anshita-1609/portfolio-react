@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 
 const TextChange = () => {
-    const texts = ["Hi, I'm Anshita"]; // Texts to display
+    const texts = ["Hi, I'm Anshita "]; // Texts to display
     const typingSpeed = 100; // Speed of typing (in ms)
-    const deletingSpeed = 200; // Speed of deleting (in ms)
+    const deletingSpeed = 100; // Speed of deleting (in ms)
 
     const [currentText, setCurrentText] = useState("");
     const [currentIndex, setCurrentIndex] = useState(0);
