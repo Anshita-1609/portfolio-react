@@ -13,7 +13,7 @@ function App() {
       <Home />
       <hr className="border-t-4 border-pink-700 w-full" />
       <About />
-      <hr className="border-t-4 border-pink-700 w-full dark:bg-gray-900" />
+      <hr className="border-t-4 border-pink-700 w-full " />
       <Projects />
       <hr className="border-t-4 border-pink-700 w-full" />
       <Certificates />
